@@ -21,6 +21,12 @@ npm run preview -- --port 4173
 
 访问 http://localhost:4173 。不要直接双击 dist/index.html：数据 fetch 与模块加载需要 HTTP 服务。`vite preview` 不作为生产服务器。
 
+## 科研阅读改版
+
+新版支持按项目阶段查看输入、方法、观察、限制及源码；证据页按项目筛选，并以公开案例连接结论、统计与逐样本摘录。当前为本地改版，尚未发布到线上。审查与前后截图入口见 [改版记录](docs/review-and-redesign-20261031.md)。
+
+更新公开案例摘录后，运行 `npm run data:extract-cases` 重新生成本地结构化数据，并用 `npm run data:check` 校验来源与摘录一致。
+
 ## 验证
 
 ```bash
@@ -34,9 +40,10 @@ npm run data:check
 ## 产物与文档
 
 - `dist/`：根路径生产静态包。
-- `artifacts/biolearn-static.zip`：根路径部署压缩包。
-- `artifacts/biolearn-pages.zip`：`/biolearn-explorer/` 子路径包；实际仓库名称不同时重新构建。
-- `artifacts/biolearn-source.zip`：独立源码包，不含依赖、浏览器及本地科研结果。
+- `artifacts/biolearn-review-static.zip`：本轮改版的根路径部署压缩包。
+- `artifacts/biolearn-review-pages.zip`：本轮改版的 `/biolearn-explorer/` 子路径包；实际仓库名称不同时重新构建。
+- `artifacts/biolearn-review-source.zip`：本轮改版独立源码包，不含依赖、浏览器及本地科研结果。
+- 不带 `review` 的旧包保留为历史版本，不代表本轮改版。
 - [部署说明](deploy/README.md)：GitHub Pages、Cloudflare Pages、Nginx/Caddy。
 - [验收记录](docs/validation.md)、[进度](docs/progress.md)、[完整规格](BioLearn-Web完整开发提示词.md)。
 

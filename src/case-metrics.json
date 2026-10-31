@@ -1,0 +1,20 @@
+{
+  "RPS27A": {
+    "gene": "RPS27A",
+    "mainEffect": "6.83901898091469",
+    "mainFdr": "3.29474541461369e-06",
+    "sensitivityEffect": "6.83901898091469",
+    "sensitivityFdr": "5.46884036998299e-07",
+    "nTreatment": "3",
+    "nControl": "3"
+  },
+  "PIK3C2B": {
+    "gene": "PIK3C2B",
+    "mainEffect": "1.30367841209462",
+    "mainFdr": "0.0210858198564206",
+    "sensitivityEffect": "1.30367841209462",
+    "sensitivityFdr": "0.189548211715504",
+    "nTreatment": "3",
+    "nControl": "3"
+  }
+}

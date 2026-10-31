@@ -10,8 +10,9 @@
     "typecheck": "tsc --noEmit",
     "test": "vitest run",
     "test:e2e": "playwright test",
-    "data:check": "node scripts/check-data.mjs",
-    "data:sync": "node scripts/sync-data.mjs"
+    "data:check": "node scripts/check-data.mjs && node scripts/extract-cases.mjs --check",
+    "data:sync": "node scripts/sync-data.mjs",
+    "data:extract-cases": "node scripts/extract-cases.mjs"
   },
   "dependencies": {
     "react": "^19.0.0",
