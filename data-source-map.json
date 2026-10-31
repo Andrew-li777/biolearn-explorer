@@ -1,0 +1,427 @@
+{
+  "schema_version": 1,
+  "source_repository": "https://github.com/Andrew-li777/biolearn-practice",
+  "source_commit": "376d0f36ba33fd7e0db3091c247ee259247c04f4",
+  "science_verified_date": "2026-10-30",
+  "interpretation_date": "2026-10-31",
+  "web_status": "planning_only",
+  "public_sources": [
+    {
+      "path": "AGENTS.md",
+      "availability": "public",
+      "purpose": "科研约定",
+      "sha256": "ff8b3fb2a6eb2d7aec560772019c969565ce0ec86cc77d6e15feb3524b526100",
+      "bytes": 1357,
+      "url": "https://github.com/Andrew-li777/biolearn-practice/blob/376d0f36ba33fd7e0db3091c247ee259247c04f4/AGENTS.md"
+    },
+    {
+      "path": "README.md",
+      "availability": "public",
+      "purpose": "项目导航与边界",
+      "sha256": "0f6ac58acabe10543afcebe04063fdbbd91adb70ea91be455896b136fb31d91b",
+      "bytes": 8159,
+      "url": "https://github.com/Andrew-li777/biolearn-practice/blob/376d0f36ba33fd7e0db3091c247ee259247c04f4/README.md"
+    },
+    {
+      "path": "docs/results-summary.json",
+      "availability": "public",
+      "purpose": "统计表 rows/headers、figures、sources、verified_date",
+      "sha256": "e66983bde5b4e5174b861959ff45a3ff68c3839f9be9a8095e162c85e2ca5a70",
+      "bytes": 8402,
+      "url": "https://github.com/Andrew-li777/biolearn-practice/blob/376d0f36ba33fd7e0db3091c247ee259247c04f4/docs/results-summary.json"
+    },
+    {
+      "path": "projects/01-airway-bulk/README.md",
+      "availability": "public",
+      "purpose": "输入、方法、验收与局限",
+      "sha256": "7b635bbb257fd7989cd18e7eda615d6f07eb3f2d22b13af7bc55763c999ef2ca",
+      "bytes": 2606,
+      "url": "https://github.com/Andrew-li777/biolearn-practice/blob/376d0f36ba33fd7e0db3091c247ee259247c04f4/projects/01-airway-bulk/README.md"
+    },
+    {
+      "path": "projects/01-airway-bulk/Snakefile",
+      "availability": "public",
+      "purpose": "方法/环境/工作流的公开复现依据",
+      "sha256": "00da3c3876accf10c65ae4241953ff15c155ec17dfd2b7611374a723f697462f",
+      "bytes": 1278,
+      "url": "https://github.com/Andrew-li777/biolearn-practice/blob/376d0f36ba33fd7e0db3091c247ee259247c04f4/projects/01-airway-bulk/Snakefile"
+    },
+    {
+      "path": "projects/01-airway-bulk/docs/bulk-methods.md",
+      "availability": "public",
+      "purpose": "方法/环境/工作流的公开复现依据",
+      "sha256": "a8f35760ff2dae23ff8149587587f855d82f4ee34112a26d7f06159f5caed895",
+      "bytes": 6052,
+      "url": "https://github.com/Andrew-li777/biolearn-practice/blob/376d0f36ba33fd7e0db3091c247ee259247c04f4/projects/01-airway-bulk/docs/bulk-methods.md"
+    },
+    {
+      "path": "projects/01-airway-bulk/docs/figures/verified-20261030-results-new-run-bulk-pca.png",
+      "availability": "public",
+      "purpose": "真实原图：airway：VST PCA",
+      "sha256": "041bf3aeb9392171130834b9319e85310fd12732b0d08562d24be5f851b84ca9",
+      "bytes": 57706,
+      "url": "https://github.com/Andrew-li777/biolearn-practice/blob/376d0f36ba33fd7e0db3091c247ee259247c04f4/projects/01-airway-bulk/docs/figures/verified-20261030-results-new-run-bulk-pca.png"
+    },
+    {
+      "path": "projects/01-airway-bulk/docs/figures/verified-20261030-results-new-run-bulk-volcano.png",
+      "availability": "public",
+      "purpose": "真实原图：airway：DESeq2 火山图，颜色依据 FDR < 0.1",
+      "sha256": "bd0d6eab0681405ffe9b6d3bb9bf696b7d648b858b2cbfddb0a6a9b26d7eafa3",
+      "bytes": 139164,
+      "url": "https://github.com/Andrew-li777/biolearn-practice/blob/376d0f36ba33fd7e0db3091c247ee259247c04f4/projects/01-airway-bulk/docs/figures/verified-20261030-results-new-run-bulk-volcano.png"
+    },
+    {
+      "path": "projects/01-airway-bulk/environment/biolearn-py.linux-64.explicit.txt",
+      "availability": "public",
+      "purpose": "方法/环境/工作流的公开复现依据",
+      "sha256": "26a7533cc7bd0d899ad75bb2d6bf270fdeac18f278658c2be9dfaf15ebda6849",
+      "bytes": 23865,
+      "url": "https://github.com/Andrew-li777/biolearn-practice/blob/376d0f36ba33fd7e0db3091c247ee259247c04f4/projects/01-airway-bulk/environment/biolearn-py.linux-64.explicit.txt"
+    },
+    {
+      "path": "projects/01-airway-bulk/environment/biolearn-r.linux-64.explicit.txt",
+      "availability": "public",
+      "purpose": "方法/环境/工作流的公开复现依据",
+      "sha256": "fac88ad76cd73701d8df52a33623ecb0e335c9fd08863e65580a18ccd5a19eff",
+      "bytes": 25742,
+      "url": "https://github.com/Andrew-li777/biolearn-practice/blob/376d0f36ba33fd7e0db3091c247ee259247c04f4/projects/01-airway-bulk/environment/biolearn-r.linux-64.explicit.txt"
+    },
+    {
+      "path": "projects/01-airway-bulk/environment/biolearn-workflow.linux-64.explicit.txt",
+      "availability": "public",
+      "purpose": "方法/环境/工作流的公开复现依据",
+      "sha256": "00139e2a283d647dc6c47622fa44ae7989135053638174e885ea2dbe8c134b10",
+      "bytes": 12999,
+      "url": "https://github.com/Andrew-li777/biolearn-practice/blob/376d0f36ba33fd7e0db3091c247ee259247c04f4/projects/01-airway-bulk/environment/biolearn-workflow.linux-64.explicit.txt"
+    },
+    {
+      "path": "projects/01-airway-bulk/workflow/config.yaml",
+      "availability": "public",
+      "purpose": "方法/环境/工作流的公开复现依据",
+      "sha256": "1a53165b86f004f09fb8bb0eb032eacdb6c9b5c39ae628e890ade905586f62b3",
+      "bytes": 42,
+      "url": "https://github.com/Andrew-li777/biolearn-practice/blob/376d0f36ba33fd7e0db3091c247ee259247c04f4/projects/01-airway-bulk/workflow/config.yaml"
+    },
+    {
+      "path": "projects/02-pbmc3k-single-cell/README.md",
+      "availability": "public",
+      "purpose": "输入、方法、验收与局限",
+      "sha256": "0fbeda03e463e36772629afa4e38f78dbd55ae83a9744df9d40ac9bf40e3a93b",
+      "bytes": 3553,
+      "url": "https://github.com/Andrew-li777/biolearn-practice/blob/376d0f36ba33fd7e0db3091c247ee259247c04f4/projects/02-pbmc3k-single-cell/README.md"
+    },
+    {
+      "path": "projects/02-pbmc3k-single-cell/Snakefile",
+      "availability": "public",
+      "purpose": "方法/环境/工作流的公开复现依据",
+      "sha256": "18ec33cf0e8d455d25b82cb094fb6da94a995de6b6cc2140314a9ecf90dbbaff",
+      "bytes": 2735,
+      "url": "https://github.com/Andrew-li777/biolearn-practice/blob/376d0f36ba33fd7e0db3091c247ee259247c04f4/projects/02-pbmc3k-single-cell/Snakefile"
+    },
+    {
+      "path": "projects/02-pbmc3k-single-cell/docs/figures/verified-20261030-results-new-run-pbmc3k-scanpy-umap_cell_types.png",
+      "availability": "public",
+      "purpose": "真实原图：PBMC3k：scanpy 推定细胞类型 UMAP",
+      "sha256": "0202ac0ba3f47cc090bc7fd4eecc768b3a6551a7316f568a6a2f85ac54cbdf5a",
+      "bytes": 141248,
+      "url": "https://github.com/Andrew-li777/biolearn-practice/blob/376d0f36ba33fd7e0db3091c247ee259247c04f4/projects/02-pbmc3k-single-cell/docs/figures/verified-20261030-results-new-run-pbmc3k-scanpy-umap_cell_types.png"
+    },
+    {
+      "path": "projects/02-pbmc3k-single-cell/docs/figures/verified-20261030-results-new-run-pbmc3k-seurat-umap_cell_types.png",
+      "availability": "public",
+      "purpose": "真实原图：PBMC3k：seurat 推定细胞类型 UMAP",
+      "sha256": "f661ee1dba71d89db43caa8f4aba2850821968f433e0c07f146944e40920fd9a",
+      "bytes": 212759,
+      "url": "https://github.com/Andrew-li777/biolearn-practice/blob/376d0f36ba33fd7e0db3091c247ee259247c04f4/projects/02-pbmc3k-single-cell/docs/figures/verified-20261030-results-new-run-pbmc3k-seurat-umap_cell_types.png"
+    },
+    {
+      "path": "projects/02-pbmc3k-single-cell/docs/pbmc3k-methods.md",
+      "availability": "public",
+      "purpose": "方法/环境/工作流的公开复现依据",
+      "sha256": "6b111f392f8365f16150002181e9b301fcef50ea255ac09894f357e9e9c2105e",
+      "bytes": 7516,
+      "url": "https://github.com/Andrew-li777/biolearn-practice/blob/376d0f36ba33fd7e0db3091c247ee259247c04f4/projects/02-pbmc3k-single-cell/docs/pbmc3k-methods.md"
+    },
+    {
+      "path": "projects/02-pbmc3k-single-cell/environment/biolearn-py.linux-64.explicit.txt",
+      "availability": "public",
+      "purpose": "方法/环境/工作流的公开复现依据",
+      "sha256": "26a7533cc7bd0d899ad75bb2d6bf270fdeac18f278658c2be9dfaf15ebda6849",
+      "bytes": 23865,
+      "url": "https://github.com/Andrew-li777/biolearn-practice/blob/376d0f36ba33fd7e0db3091c247ee259247c04f4/projects/02-pbmc3k-single-cell/environment/biolearn-py.linux-64.explicit.txt"
+    },
+    {
+      "path": "projects/02-pbmc3k-single-cell/environment/biolearn-r.linux-64.explicit.txt",
+      "availability": "public",
+      "purpose": "方法/环境/工作流的公开复现依据",
+      "sha256": "fac88ad76cd73701d8df52a33623ecb0e335c9fd08863e65580a18ccd5a19eff",
+      "bytes": 25742,
+      "url": "https://github.com/Andrew-li777/biolearn-practice/blob/376d0f36ba33fd7e0db3091c247ee259247c04f4/projects/02-pbmc3k-single-cell/environment/biolearn-r.linux-64.explicit.txt"
+    },
+    {
+      "path": "projects/02-pbmc3k-single-cell/environment/biolearn-workflow.linux-64.explicit.txt",
+      "availability": "public",
+      "purpose": "方法/环境/工作流的公开复现依据",
+      "sha256": "00139e2a283d647dc6c47622fa44ae7989135053638174e885ea2dbe8c134b10",
+      "bytes": 12999,
+      "url": "https://github.com/Andrew-li777/biolearn-practice/blob/376d0f36ba33fd7e0db3091c247ee259247c04f4/projects/02-pbmc3k-single-cell/environment/biolearn-workflow.linux-64.explicit.txt"
+    },
+    {
+      "path": "projects/02-pbmc3k-single-cell/workflow/config.yaml",
+      "availability": "public",
+      "purpose": "方法/环境/工作流的公开复现依据",
+      "sha256": "1a53165b86f004f09fb8bb0eb032eacdb6c9b5c39ae628e890ade905586f62b3",
+      "bytes": 42,
+      "url": "https://github.com/Andrew-li777/biolearn-practice/blob/376d0f36ba33fd7e0db3091c247ee259247c04f4/projects/02-pbmc3k-single-cell/workflow/config.yaml"
+    },
+    {
+      "path": "projects/03-nfcore-rnaseq-test/README.md",
+      "availability": "public",
+      "purpose": "输入、方法、验收与局限",
+      "sha256": "6daf7b96bc044ca193e58b95dba00c46362ff98f1637b3668909b3846ef71819",
+      "bytes": 2921,
+      "url": "https://github.com/Andrew-li777/biolearn-practice/blob/376d0f36ba33fd7e0db3091c247ee259247c04f4/projects/03-nfcore-rnaseq-test/README.md"
+    },
+    {
+      "path": "projects/03-nfcore-rnaseq-test/docs/nfcore-test.md",
+      "availability": "public",
+      "purpose": "方法/环境/工作流的公开复现依据",
+      "sha256": "6bd9c312643c16dd90ec3039d4203ed8d6c3012b6b2746366457bf21cf4dbcf8",
+      "bytes": 4687,
+      "url": "https://github.com/Andrew-li777/biolearn-practice/blob/376d0f36ba33fd7e0db3091c247ee259247c04f4/projects/03-nfcore-rnaseq-test/docs/nfcore-test.md"
+    },
+    {
+      "path": "projects/03-nfcore-rnaseq-test/environment/biolearn-py.linux-64.explicit.txt",
+      "availability": "public",
+      "purpose": "方法/环境/工作流的公开复现依据",
+      "sha256": "26a7533cc7bd0d899ad75bb2d6bf270fdeac18f278658c2be9dfaf15ebda6849",
+      "bytes": 23865,
+      "url": "https://github.com/Andrew-li777/biolearn-practice/blob/376d0f36ba33fd7e0db3091c247ee259247c04f4/projects/03-nfcore-rnaseq-test/environment/biolearn-py.linux-64.explicit.txt"
+    },
+    {
+      "path": "projects/03-nfcore-rnaseq-test/environment/biolearn-workflow.linux-64.explicit.txt",
+      "availability": "public",
+      "purpose": "方法/环境/工作流的公开复现依据",
+      "sha256": "00139e2a283d647dc6c47622fa44ae7989135053638174e885ea2dbe8c134b10",
+      "bytes": 12999,
+      "url": "https://github.com/Andrew-li777/biolearn-practice/blob/376d0f36ba33fd7e0db3091c247ee259247c04f4/projects/03-nfcore-rnaseq-test/environment/biolearn-workflow.linux-64.explicit.txt"
+    },
+    {
+      "path": "projects/04-proteomics-matrix/README.md",
+      "availability": "public",
+      "purpose": "输入、方法、验收与局限",
+      "sha256": "725b1272be110b27cd732fd0e6e45f6b37d35c1d326c3c5fa42625ee25426eb0",
+      "bytes": 4165,
+      "url": "https://github.com/Andrew-li777/biolearn-practice/blob/376d0f36ba33fd7e0db3091c247ee259247c04f4/projects/04-proteomics-matrix/README.md"
+    },
+    {
+      "path": "projects/04-proteomics-matrix/Snakefile",
+      "availability": "public",
+      "purpose": "方法/环境/工作流的公开复现依据",
+      "sha256": "439ad1f60108d3006551472647278a21879895eac705359c0bc93ae251444557",
+      "bytes": 1568,
+      "url": "https://github.com/Andrew-li777/biolearn-practice/blob/376d0f36ba33fd7e0db3091c247ee259247c04f4/projects/04-proteomics-matrix/Snakefile"
+    },
+    {
+      "path": "projects/04-proteomics-matrix/docs/figures/verified-20261030-results-final-Ubi4_vs_Ctrl_heatmap.png",
+      "availability": "public",
+      "purpose": "真实原图：Ubi4 vs Ctrl：插补后排名前 30 蛋白热图，不代表全部显著",
+      "sha256": "2e6ddb07781f12ba553d5e62bc1a58a9bb91a61af56c0dae299d3abd25ae73a2",
+      "bytes": 39617,
+      "url": "https://github.com/Andrew-li777/biolearn-practice/blob/376d0f36ba33fd7e0db3091c247ee259247c04f4/projects/04-proteomics-matrix/docs/figures/verified-20261030-results-final-Ubi4_vs_Ctrl_heatmap.png"
+    },
+    {
+      "path": "projects/04-proteomics-matrix/docs/figures/verified-20261030-results-final-Ubi4_vs_Ctrl_volcano.png",
+      "availability": "public",
+      "purpose": "真实原图：Ubi4 vs Ctrl：差异富集火山图",
+      "sha256": "f467cd7f7845192a5661329fbadce5d0a6bf3621a563db78957562052f31cd9e",
+      "bytes": 11648,
+      "url": "https://github.com/Andrew-li777/biolearn-practice/blob/376d0f36ba33fd7e0db3091c247ee259247c04f4/projects/04-proteomics-matrix/docs/figures/verified-20261030-results-final-Ubi4_vs_Ctrl_volcano.png"
+    },
+    {
+      "path": "projects/04-proteomics-matrix/docs/figures/verified-20261030-results-final-pca.png",
+      "availability": "public",
+      "purpose": "真实原图：UbiLength：VSN + MinProb 后 PCA",
+      "sha256": "8077f6657d5b4fee8f5eec8cd47a3f67bff48896f0d5da83dcb0b09d811f6159",
+      "bytes": 19457,
+      "url": "https://github.com/Andrew-li777/biolearn-practice/blob/376d0f36ba33fd7e0db3091c247ee259247c04f4/projects/04-proteomics-matrix/docs/figures/verified-20261030-results-final-pca.png"
+    },
+    {
+      "path": "projects/04-proteomics-matrix/docs/methods.md",
+      "availability": "public",
+      "purpose": "方法/环境/工作流的公开复现依据",
+      "sha256": "9b21427cac5293f51180c779bdbe30b4a32d823a9938d828e5229bf1cf1d1081",
+      "bytes": 2165,
+      "url": "https://github.com/Andrew-li777/biolearn-practice/blob/376d0f36ba33fd7e0db3091c247ee259247c04f4/projects/04-proteomics-matrix/docs/methods.md"
+    },
+    {
+      "path": "projects/04-proteomics-matrix/docs/validation.md",
+      "availability": "public",
+      "purpose": "方法/环境/工作流的公开复现依据",
+      "sha256": "1655005fce12b854703b0e6da6e0d0856ea51d8dac3f93a560502b33fbe668c1",
+      "bytes": 2665,
+      "url": "https://github.com/Andrew-li777/biolearn-practice/blob/376d0f36ba33fd7e0db3091c247ee259247c04f4/projects/04-proteomics-matrix/docs/validation.md"
+    },
+    {
+      "path": "projects/04-proteomics-matrix/environment/biolearn-workflow.linux-64.explicit.txt",
+      "availability": "public",
+      "purpose": "方法/环境/工作流的公开复现依据",
+      "sha256": "00139e2a283d647dc6c47622fa44ae7989135053638174e885ea2dbe8c134b10",
+      "bytes": 12999,
+      "url": "https://github.com/Andrew-li777/biolearn-practice/blob/376d0f36ba33fd7e0db3091c247ee259247c04f4/projects/04-proteomics-matrix/environment/biolearn-workflow.linux-64.explicit.txt"
+    },
+    {
+      "path": "projects/04-proteomics-matrix/environment/proteomics-analysis.linux-64.explicit.txt",
+      "availability": "public",
+      "purpose": "方法/环境/工作流的公开复现依据",
+      "sha256": "72e97f51e2f841d71fce6c9db1e3d27e1dbc0b0aeb3c0a271874ffbf41a4f3d5",
+      "bytes": 25269,
+      "url": "https://github.com/Andrew-li777/biolearn-practice/blob/376d0f36ba33fd7e0db3091c247ee259247c04f4/projects/04-proteomics-matrix/environment/proteomics-analysis.linux-64.explicit.txt"
+    },
+    {
+      "path": "projects/04-proteomics-matrix/workflow/config.yaml",
+      "availability": "public",
+      "purpose": "方法/环境/工作流的公开复现依据",
+      "sha256": "ec807d946c12c2902093d00bbdfb09dab2b0fbbbdc249868ffa4b533526fceca",
+      "bytes": 405,
+      "url": "https://github.com/Andrew-li777/biolearn-practice/blob/376d0f36ba33fd7e0db3091c247ee259247c04f4/projects/04-proteomics-matrix/workflow/config.yaml"
+    },
+    {
+      "path": "结果分析/生信结果正序解读与倒序追溯提示词.md",
+      "availability": "public",
+      "purpose": "结果解读规则",
+      "sha256": "45924ff9920990f504fd3d109f9ebd69ccfc05fb6ad300c26e268373ee428c8a",
+      "bytes": 9098,
+      "url": "https://github.com/Andrew-li777/biolearn-practice/blob/376d0f36ba33fd7e0db3091c247ee259247c04f4/%E7%BB%93%E6%9E%9C%E5%88%86%E6%9E%90/%E7%94%9F%E4%BF%A1%E7%BB%93%E6%9E%9C%E6%AD%A3%E5%BA%8F%E8%A7%A3%E8%AF%BB%E4%B8%8E%E5%80%92%E5%BA%8F%E8%BF%BD%E6%BA%AF%E6%8F%90%E7%A4%BA%E8%AF%8D.md"
+    },
+    {
+      "path": "结果分析/证据索引.csv",
+      "availability": "public",
+      "purpose": "历史回读范围与源产物哈希",
+      "sha256": "f77a935fb1e9556da0427c0921cc0f742e052d168f52b1b5233eb1a5fe360ae1",
+      "bytes": 11896,
+      "url": "https://github.com/Andrew-li777/biolearn-practice/blob/376d0f36ba33fd7e0db3091c247ee259247c04f4/%E7%BB%93%E6%9E%9C%E5%88%86%E6%9E%90/%E8%AF%81%E6%8D%AE%E7%B4%A2%E5%BC%95.csv"
+    },
+    {
+      "path": "结果分析/项目结果分析报告.md",
+      "availability": "public",
+      "purpose": "正序地图、敏感性表和两个逐样本案例",
+      "sha256": "c9109215dee2f659956c9f6f67e5a0f0d38374f4431103db2c8e2873f64d5fa7",
+      "bytes": 19366,
+      "url": "https://github.com/Andrew-li777/biolearn-practice/blob/376d0f36ba33fd7e0db3091c247ee259247c04f4/%E7%BB%93%E6%9E%9C%E5%88%86%E6%9E%90/%E9%A1%B9%E7%9B%AE%E7%BB%93%E6%9E%9C%E5%88%86%E6%9E%90%E6%8A%A5%E5%91%8A.md"
+    }
+  ],
+  "referenced_run_artifacts": [
+    {
+      "project": "01-airway-bulk",
+      "path": "projects/01-airway-bulk/results/new-run/bulk/analysis_summary.csv",
+      "availability": "not_public",
+      "historical_sha256": "26abb660ee625d7e6716e3530f3841659ebe5419a60ca886344cce338b6901cd",
+      "url": null
+    },
+    {
+      "project": "01-airway-bulk",
+      "path": "projects/01-airway-bulk/results/new-run/bulk/acceptance_checks.csv",
+      "availability": "not_public",
+      "historical_sha256": "04ec9f2ce9c5a35c4925c2d2ebfd7bb6f773b29e1407382ffb4e52ae5210d84f",
+      "url": null
+    },
+    {
+      "project": "02-pbmc3k-single-cell",
+      "path": "projects/02-pbmc3k-single-cell/results/new-run/pbmc3k/analysis_summary.csv",
+      "availability": "not_public",
+      "historical_sha256": "7ea6445897e6fa4c3ef2f828742871829cd4b0006eecdcec1e7f03f7ce3241aa",
+      "url": null
+    },
+    {
+      "project": "02-pbmc3k-single-cell",
+      "path": "projects/02-pbmc3k-single-cell/results/new-run/pbmc3k/comparison_metrics.json",
+      "availability": "not_public",
+      "historical_sha256": "9648bfdd9818b32514ad31e9eeb5e406c122703bb533ece4b84b6a37b9455407",
+      "url": null
+    },
+    {
+      "project": "02-pbmc3k-single-cell",
+      "path": "projects/02-pbmc3k-single-cell/results/new-run/pbmc3k/acceptance_checks.csv",
+      "availability": "not_public",
+      "historical_sha256": "abb60a80fcb6597c97d7f47a73172b9951b5697d8c5b2146786ae8ddeb47a721",
+      "url": null
+    },
+    {
+      "project": "03-nfcore-rnaseq-test",
+      "path": "projects/03-nfcore-rnaseq-test/results/nfcore/new-attempt/verification/summary.json",
+      "availability": "not_public",
+      "historical_sha256": "bc5950c44f3ebfd8adc13c5392f25bbbdc8b60395684fe565920e821b8d6e49f",
+      "url": null
+    },
+    {
+      "project": "03-nfcore-rnaseq-test",
+      "path": "projects/03-nfcore-rnaseq-test/results/nfcore/new-attempt/completion-status.json",
+      "availability": "not_public",
+      "historical_sha256": "1152d344c1a53fffc97bc6aadcf34dbe07f73ce09bcf86350054a20816f3229c",
+      "url": null
+    },
+    {
+      "project": "04-proteomics-matrix",
+      "path": "projects/04-proteomics-matrix/results/final/summary.csv",
+      "availability": "not_public",
+      "historical_sha256": "49a092004d19d46d6863db36631eff8cc3df1dbaf3c6d7b39b732b8919e47b54",
+      "url": null
+    },
+    {
+      "project": "04-proteomics-matrix",
+      "path": "projects/04-proteomics-matrix/results/final/filter_counts.csv",
+      "availability": "not_public",
+      "historical_sha256": "abe233f4370a306360ca1483234bc18d49045cca32dcaf003c8f48cadf9d6aab",
+      "url": null
+    },
+    {
+      "project": "04-proteomics-matrix",
+      "path": "projects/04-proteomics-matrix/results/final/sensitivity_summary.csv",
+      "availability": "not_public",
+      "historical_sha256": "7432b8ceaa04259687bd64e8fc29b9196b7fedbab63b620819769ee675f4cb92",
+      "url": null
+    },
+    {
+      "project": "04-proteomics-matrix",
+      "path": "projects/04-proteomics-matrix/results/final/acceptance.json",
+      "availability": "not_public",
+      "historical_sha256": "b6fa51aca69bc151483f159e0f43fa1b82e466a909f9953cffb451fac9f8925b",
+      "url": null
+    }
+  ],
+  "metric_mapping": {
+    "bulk_counts": {
+      "source": "docs/results-summary.json",
+      "selector": "entries[project=01-airway-bulk].headers/rows"
+    },
+    "cell_counts": {
+      "source": "docs/results-summary.json",
+      "selector": "entries[project=02-pbmc3k-single-cell].headers/rows"
+    },
+    "workflow_counts": {
+      "source": "docs/results-summary.json",
+      "selector": "entries[project=03-nfcore-rnaseq-test].headers/rows"
+    },
+    "protein_counts": {
+      "source": "docs/results-summary.json",
+      "selector": "entries[project=04-proteomics-matrix].headers/rows"
+    },
+    "sample_counts_and_design": {
+      "source": "各子项目公开 README.md",
+      "selector": "输入章节；整理时保留原文定位"
+    },
+    "ari_nmi": {
+      "source": "docs/results-summary.json",
+      "selector": "PBMC entry.note；当前为文案，需规范化元数据"
+    },
+    "protein_jaccard": {
+      "source": "结果分析/项目结果分析报告.md",
+      "selector": "蛋白组差异与敏感性表；与摘要 note 交叉核对"
+    },
+    "protein_cases": {
+      "source": "结果分析/项目结果分析报告.md",
+      "selector": "倒序证据案例；只提供公开摘录，不是完整差异表"
+    }
+  }
+}

@@ -1,0 +1,5 @@
+import{execFileSync}from'node:child_process';import fs from'node:fs';import crypto from'node:crypto';
+const map=JSON.parse(fs.readFileSync('data-source-map.json'));const read=p=>execFileSync('git',['-C','..','show',`${map.source_commit}:${p}`],{maxBuffer:10000000});const summary=JSON.parse(read('docs/results-summary.json'));const sources=[];
+for(const s of map.public_sources){const b=read(s.path);if(crypto.createHash('sha256').update(b).digest('hex')!==s.sha256)throw Error(s.path);const dest='public/data/sources/'+s.path;fs.mkdirSync(dest.slice(0,dest.lastIndexOf('/')),{recursive:true});fs.writeFileSync(dest,b);sources.push({...s,download:'data/sources/'+s.path})}
+for(const e of summary.entries)for(const f of e.figures){const b=read(f.path);if(crypto.createHash('sha256').update(b).digest('hex')!==f.sha256)throw Error('image');const name=e.project+'-'+f.path.split('/').pop();fs.writeFileSync('public/figures/'+name,b);f.asset='figures/'+name}
+fs.writeFileSync('public/data/portal.json',JSON.stringify({...summary,sources,commit:map.source_commit,artifacts:map.referenced_run_artifacts}));
