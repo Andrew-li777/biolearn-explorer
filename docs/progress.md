@@ -52,3 +52,9 @@
 ## 科研阅读路径深化：发布准备
 
 - 用户已授权推送更新；将本轮已验收的网站代码提交至独立网站仓库并触发 GitHub Pages。实际部署结果随后记录，原科研仓库保持只读。
+
+## 科研阅读路径深化：已上线
+
+- 用户授权后推送应用提交 `df91ec913e7c2aad9aa1f568e9e8ec3fc9b59221`，GitHub Pages 工作流 [41230086418](https://github.com/Andrew-li777/biolearn-explorer/actions/runs/41230086418) 数据校验、测试、构建及部署成功。
+- 公网 Chromium 实测八路由、构建提交、PIK3C2B 正序案例、返回 Ubi1 敏感性分析及刷新恢复通过，未发现页面异常或 HTTP 资源失败。证据保存在本地 artifacts/next-live.json 与 next-live.png。
+- 本条为部署后的文档记录；网站应用仍对应 df91ec9。未重跑科研分析，未修改原科研仓库。

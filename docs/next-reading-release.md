@@ -37,3 +37,7 @@ artifacts/biolearn-next-static.zip 的内容可直接用作 Cloudflare Pages 或
 ### 本轮压缩部署测量
 
 gzip 开启时，基线 LCP 三次为 [1848, 1600, 1676]ms，中位 1676ms；新版三次为 [1632, 1708, 1768]ms，中位 1708ms，CLS 均为 0。入口 JS gzip 从 111467 增至 114858 bytes（增加 3.04%），符合本轮预算；不能将微小差异解释为显著性能变化。
+
+## 后续发布状态
+
+用户随后授权更新：应用提交 `df91ec9` 已通过 [GitHub Pages 工作流](https://github.com/Andrew-li777/biolearn-explorer/actions/runs/41230086418) 上线。公网八路由、版本、案例链接与刷新检查通过。前文未发布描述为本地交付时的历史状态。
