@@ -21,3 +21,10 @@
 
 - 用户授权创建独立公开前端仓库并上线。发布前发现 Vitest 扫描 artifacts/standalone 的浏览器测试，已限定正式单元测试文件；不修改科研源项目。
 - 发布状态以远端 Actions 与网站实际访问结果为准；数据仍固定为公开来源，不上传本地完整结果。
+
+## GitHub Pages 上线（2026-10-31 UTC）
+
+- 独立公开仓库：https://github.com/Andrew-li777/biolearn-explorer；网站：https://andrew-li777.github.io/biolearn-explorer/ 。源码与公开快照推送，不含本机完整科研运行结果。
+- 修复发布前 Vitest 扫描独立验证副本的问题；本地 3 项单元测试及 5 项浏览器测试通过。GitHub Actions 部署 41225766450 的依赖安装、数据校验、测试、构建及 Pages 发布通过，部署源码提交 2cee71f307c5a3e9c962be88163c97dbf1780cab。
+- 实际公网移动浏览器依次访问 8 个页面，检查 about 仓库地址、蛋白组 Ubi1 不可用图片提示、深链接刷新；无页面异常或 HTTP 失败。证据保存在本地 artifacts/online-final.json 与 online-final.png（不纳入 Git）。
+- GitHub Actions 提示部分官方 action 的 Node 20 运行时已弃用、当前强制使用 Node 24，以及 ubuntu-latest 后续迁移提示；本次部署成功，后续需关注上游 action 兼容性。
