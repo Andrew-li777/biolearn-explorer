@@ -1,5 +1,7 @@
 # 科研阅读体验审查与改版记录
 
+> 后续状态：本轮改版已由提交 `c806eb3` 发布，GitHub Actions [41228685645](https://github.com/Andrew-li777/biolearn-explorer/actions/runs/41228685645) 成功。下文“未上线”保留为审查当时的历史记录；后续开发状态见 progress.md。
+
 审查时间：2026-10-31 UTC。审查的已上线网站及本地基线源码提交为 `e7cebe9b89974a46cb8bc94db1f6d65f9f63cc5c`；科学数据固定来源提交为 `376d0f36ba33fd7e0db3091c247ee259247c04f4`。公网逐一打开 8 条路由，记录 `artifacts/review-live-routes.json` 与 `artifacts/review-live-before.png`。本轮新版本只在本地构建和验证，线上仍是原版本。
 
 查阅根 README、项目 README、公开摘要、蛋白组方法与结果分析报告、网站设计/数据/验收文档、快照映射及现有组件/测试。此前已发布科研图、结果数据和用户入口继续保留。科研运行产物未重新运行或修改。没有对所有公开方法文档逐行做新的科学审核。

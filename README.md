@@ -54,3 +54,7 @@ npm run data:check
 下载仅包括公开摘要、报告、方法和原图。未公开完整差异表、逐细胞坐标与表达矩阵，所以没有全基因库搜索、动态散点图、细胞点选或 marker 表达浏览。Evidence Explorer 提供来源、结论及公开报告下载；不是交互式 AI 推理服务。
 
 UI 采用 React/Tailwind、Lucide 与 Radix 可访问 Dialog 原语，遵循 shadcn 的组件组合方式，没有引入整套模板。摘要图表按需加载 ECharts。独立前端仓库为 https://github.com/Andrew-li777/biolearn-explorer ，通过 GitHub Pages 部署；未绑定自定义域名。`.github/workflows/pages.yml` 需将本目录作为独立仓库根后才适用。
+
+## 科研阅读路径深化版本
+
+本地下一版支持可分享的阶段、方法/组别及案例链接、构建版本来源和图注上下文。使用 `npm run dev` 预览；详见 [交付与验收记录](docs/next-reading-release.md)。发布状态以 GitHub Actions 与 docs/progress.md 的后续记录为准。
